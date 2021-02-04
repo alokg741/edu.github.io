@@ -1,0 +1,99 @@
+h1 , #login{
+  font-family: 'Potta One', cursive;
+  text-align:center;
+}
+
+#logo {
+    width:200px;
+    height: 200px;
+    margin:0 0 0 650px;
+}
+
+body{
+  background-color: #75DD0E;
+}
+
+.body {
+  background-image:url(images/back.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 1500px;
+}
+
+p{
+  font-family: 'Londrina Solid', cursive;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  width: 1500px;
+}
+
+#item1 ,#item2{
+  width:500px;
+  height:300px;
+  margin:10px;
+  filter:opacity(70%);
+  filter:saturate(100%);
+}
+
+#author{
+  font-family:monospace;
+  font-size: 20px;
+}
+
+#gameline{
+  font-family:sans-serif;
+}
+
+#form{
+  font-family: monospace;
+  text-align: center;
+  background-color:#555555 ;
+}
+
+#form1 ,#form2 ,#form3 ,#form4 {
+  border-radius:10px ;
+  border:none;
+  background-color:#FF9300 ;
+  color:#FFFFFF ;
+  font-family:monospace ;
+}
+
+#button1 ,#button2{
+  border-radius: 10px;
+  border: none;
+  background-color: #FFE200;
+  color:#FFFFFF ;
+  font-family:monospace ;
+
+}
+
+.header{
+}
+
+#game{
+  margin-left:340px ;
+}
+
+#item3{
+  width:300px;
+  height:300px;
+  margin:10px;
+  filter:opacity(70%);
+  filter:saturate(100%);
+}
+
+@media (min-device-width:600px) {
+  img[data-src-600px] {
+    content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width:800px) {
+  img[data-src-800px] {
+    content: attr(data-src-800px, url);
+  }
+}
